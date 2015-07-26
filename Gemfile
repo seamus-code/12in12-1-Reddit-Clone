@@ -43,5 +43,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# Manually added Gems
 # For the ExecJS::ProgramError in Windows
 gem 'coffee-script-source', '1.8.0'
+
+# For the User System
+gem 'devise', '~> 3.4.0'
